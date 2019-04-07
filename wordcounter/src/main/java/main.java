@@ -1,7 +1,12 @@
 package main.java;
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+import java.util.Vector;
 public class main {
     static String ignorechar="#,.?![]{}*><:";
     static HashMap<String, Vector<Vector<String>>> dict=new HashMap<String,Vector<Vector<String>>>();
