@@ -1,4 +1,4 @@
-# Ep1wordcounter
-  这是一个可以按行读取一个txt文件（默认为Shakespeare.txt）并按单词进行查找的project。
-  在main.java里你可以通过输入一个单词来得到单词数目，每个单词所在行数，上一个单词，以及所在行的内容。
-  在main.java提供了getonlynum函数用于测试，test文件给了一些样例，不过仅测试所给单词的数目是否正确（每个单词所在行数，上一个单词，以及所在行的内容的文本内容过大，且结果只能由程序运行得到，故不予测试）
+# springboot
+## 使用springboot重构了wordcounter
+使用postman作为前端，在运行 \src\main\java\wordcounter\ApplicationStartup.java后，在postman界面输入http://localhost:8080/users/word?showmore=0，
+其中word可以替换为你要查找的单词，showmore=1时显示详细信息，其他情况只显示单词个数。

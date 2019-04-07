@@ -1,11 +1,10 @@
-package test.main.java; 
+package test.main.java;
 
-import org.junit.Test; 
-import org.junit.Before; 
-import org.junit.After;
 import main.java.main;
+import org.junit.After;
 import org.junit.Assert;
-import static org.junit.Assert.assertEquals;
+import org.junit.Before;
+import org.junit.Test;
 
 /** 
 * main Tester. 
