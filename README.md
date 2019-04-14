@@ -8,4 +8,4 @@
 密码为"password"
 用户名密码均正确后即可查看答案
 ### actuator
-打开浏览器，在运行 \src\main\java\wordcounter\ApplicationStartup.java后，在导航栏输入http://localhost:8080/actuator/info, 返回app信息，输入http://localhost:8080/actuator/health,返回健康信息（实际上只有 status）
+打开浏览器，在运行 \src\main\java\wordcounter\ApplicationStartup.java后，在导航栏输入http://localhost:8080/actuator/info, 返回app信息，输入http://localhost:8080/actuator/health,返回健康信息
