@@ -1,0 +1,20 @@
+# 默认的profile为dev，其他环境通过指定启动参数使用不同的profile，比如：
+#   测试环境：java -jar my-spring-boot.jar --spring.profiles.active=test
+#   生产环境：java -jar my-spring-boot.jar --spring.profiles.active=prod
+
+
+server:
+  port: 8080
+management:
+  server:
+#  health:
+#    mail:
+#      enabled: false
+info:
+  app:
+    name: "wordcounter"
+    description: "@project.description@"
+    version: "@project.version@"
+    spring-boot-version: "1.0"
+
+

@@ -91,7 +91,7 @@ public class usercontroller {
         }
     }
     @RequestMapping(value = "/users/{word}",method = RequestMethod.GET)
-    public String getUser(@PathVariable String word, @RequestParam int showmore){
+    public String getNum(@PathVariable String word, @RequestParam int showmore){
         readFile();
         boolean it2 = dict.containsKey(word);
         if(it2==false)
