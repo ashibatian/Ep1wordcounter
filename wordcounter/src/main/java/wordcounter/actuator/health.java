@@ -24,6 +24,18 @@ public class health implements HealthIndicator {
      */
     @Override
     public Health health() {
-       return Health.down().withDetail("Error Code", "good").build();
+        int code = check();
+        if (code != 0) {
+            Health.down().withDetail("code", code).withDetail("version", 1.0).build();
+        }
+        return Health.up().withDetail("code", code)
+                .withDetail("version", 1.0).up().build();
     }
+
+    private int check() {
+
+        return 0;
+    }
+
+
 }
